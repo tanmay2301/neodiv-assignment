@@ -191,6 +191,7 @@
     border: none;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
 }
 
 .search-icon{
@@ -204,7 +205,10 @@
     color: #545554;
     width: 30px;
     padding-left: 10px;
+    cursor: pointer;
 }
+
+
 .check:checked:before{
     border: none;
     color: #222223;
@@ -228,6 +232,11 @@
     padding-right: 10px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dummy-mail:hover{
+    background-color: #343434;
+    cursor: pointer;
 }
 
 .dummy-header{
