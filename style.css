@@ -1,0 +1,177 @@
+.main-body {
+    height: 790px;
+    width: 730px;
+    background-color: #222223;
+    border-radius: 20px;
+    margin-left: 590px;
+    margin-top: 50px;     
+}
+
+
+.mail {
+    height: 50px;
+    width: 150px;
+    background-color: #222223;
+    display: flex;
+    align-items: center; 
+    border-top-left-radius: 20px;
+}
+
+.mail-header {
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'sans-serif';
+    color: white;
+    margin-top: 30px;
+}
+
+.mail-icon {
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.sidebar {
+    background-color: #222223;
+    width: 270px;
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-top: 20px;
+    
+}
+
+
+.compose-button {
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 15px;
+    word-spacing: 2px;
+    color: white;
+    background-color: rgb(150, 62, 231);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px; 
+}
+
+.compose-button:hover {
+    cursor: pointer;
+    opacity: 1;
+    color: white;
+    transform: scale(1.05);
+    
+}
+
+.compose-button i {
+    margin-right: 8px;
+}
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    width: 100%;
+    max-width: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+
+.menu li {
+    padding: 5px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    background-color: #222223;
+    border-radius: 8px;
+    color: #b0a7c3;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(190, 188, 188);
+}
+
+.menu li i {
+    margin-right: 10px;
+}
+
+.menu li:hover {
+    background-color: #343434;
+    color: white;
+    width: 260px;
+}
+
+
+
+.count {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+
+.inbox{
+    margin-left: 140px;
+}
+
+.spam {
+    color: red;
+    margin-left: 150px;
+}
+
+.starred{
+    margin-left: 135px;
+}
+
+.snoozed{
+    margin-left: 130px;
+}
+.sent{
+    margin-left: 155px;
+}
+.deleted{
+    margin-left: 133px;
+}
+
+.secondary{
+    height: 738px;
+    width: 728px;
+    
+    display: flex;
+}
+
+.inbox-mail{
+    height: 719px;
+    width: 20px;
+    background-color: #161717;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.inbox-header{
+    color: white;
+    font-family: 'Lucida Sans';
+    margin-left: 20px;
+}
+
+.inbox-messages{
+    color: gray;
+    margin-left: 19px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
