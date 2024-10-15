@@ -175,3 +175,37 @@
     font-weight: bold;
 }
 
+#arrayOutput{
+    color: white;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-left: 20px;
+}
+
+.search{
+    display: flex;
+}
+
+.search-bar{
+    margin-left: 0;
+    width: 370px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 30px;
+    background-color: #292829;
+    border: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search-icon{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background-color: #292829;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    color: #545554;
+    width: 30px;
+    padding-left: 10px;
+}
